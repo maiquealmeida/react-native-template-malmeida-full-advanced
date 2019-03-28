@@ -128,6 +128,24 @@ react-native init AwesomeExample --template malmeida-full-advanced
 
 2. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
 
+3. **IMPORTANTE:** Edite o arquivo app.json, informando o namespace ("name") e o nome da sua aplicação ("DisplayName").
+
+### IMPORTANTE: Pós-Instalação
+
+O sistema de templates ainda apresenta alguns comportamentos imprevistos e certas instabilidades durante a instalação. Algumas medidas devem ser tomadas para contornas estes problemas:
+
+1. Apague completamente os diretorios `node_modules`, `android` e `ios`.
+
+2. Execute `npm install` para recriar o diretorio `node_modules`
+
+3. Execute `react-native eject` para recriar os diretorios `android` e `ios`
+
+4. Execute `react-native link` para linkar todas as bibliotecas nos projetos recriados.
+
+5. Execute `react-native start --reset-cache` para forçar a recriação do cache da aplicação.
+
+6. Em uma segunda instancia do terminal, execute `react-native run-android` para compilar pela primeira vez. Certifique-se de ter um dispositivo com o modo desenvolvimento ativado ou um emulador sendo executado.
+
 Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
 
 ### Edição
