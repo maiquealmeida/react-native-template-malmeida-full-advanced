@@ -1,7 +1,4 @@
 {
   "name": "react-native-template-malmeida-full-advanced",
-  "version": "1.0.2",
-  "dependencies": {
-    "@react-native-community/async-storage": "^1.2.2"
-  }
+  "version": "1.0.3"
 }

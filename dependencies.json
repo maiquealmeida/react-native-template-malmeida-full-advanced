@@ -1,7 +1,7 @@
 {
   "axios": "latest",
   "prop-types": "latest",
-  "react":"latest",
+  "react": "latest",
   "react-native-gesture-handler": "latest",
   "react-navigation": "latest",
   "react-redux": "latest",
@@ -13,5 +13,6 @@
   "redux-saga": "latest",
   "seamless-immutable": "latest",
   "styled-components": "latest",
-  "react-native-vector-icons": "latest"
+  "react-native-vector-icons": "latest",
+  "@react-native-community/async-storage": "latest"
 }
